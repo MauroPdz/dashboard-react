@@ -1,7 +1,7 @@
 import React from 'react';
 import './assets/css/app.css';
-import Sidebar from './components/Sidebar'
-import ContentWrapper from './components/ContentWrapper'
+import Sidebar from './components/sidebar/Sidebar'
+import ContentWrapper from './components/content-wrapper/ContentWrapper'
 
 function App(){
   return (

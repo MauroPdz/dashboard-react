@@ -1,7 +1,6 @@
 import React from 'react';
 import TopBar from './TopBar'
-import ContentRowTop from './ContentRowTop'
-import TableMovies from './TableMovies'
+import ContainerBody from './content-body/ContainerBody'
 import Footer from './Footer'
 
 
@@ -9,28 +8,14 @@ function ContentWrapper(){
   return (
     // <!-- Content Wrapper -->
     <div id="content-wrapper" className="d-flex flex-column">
-
+      
       {/* <!-- Main Content --> */}
       <div id="content">
-
         <TopBar />
-        <ContentRowTop />
-
+        <ContainerBody />
       </div>
-      {/* <!-- End of MainContent --> */}
-
-      {/* Table */}
-
-        {/* <TableMovies /> */}
-
-        {/* <!-- Footer --> */}
         <Footer />
-        {/* <!-- End of Footer --> */}
-
-    {/*   <!-- End of Content Wrapper --> */}
-  
     </div>
-    //  <!-- End of Page Wrapper -->
   )
 
 }
